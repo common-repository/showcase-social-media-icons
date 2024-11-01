@@ -1,0 +1,9 @@
+.wrap .form-table th, .wrap .form-table td {
+    padding: 5px 10px;
+}
+
+.wrap .form-table {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
